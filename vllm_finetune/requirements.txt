@@ -1,0 +1,17 @@
+# Target: Linux x86_64, Python 3.12, NVIDIA CUDA GPU.
+# Keep the PyTorch family aligned with vLLM 0.11.0.
+datasets==4.3.0
+pandas==2.3.3
+peft==0.18.0
+Pillow==12.0.0
+torch==2.8.0
+# Match torchao's compiled extensions to PyTorch 2.8.
+torchao==0.13.0
+torchaudio==2.8.0
+torchvision==0.23.0
+transformers==4.56.2
+trl==0.23.0
+unsloth==2025.11.3
+# Pin the companion library to the same release period.
+unsloth_zoo==2025.11.4
+vllm==0.11.0
