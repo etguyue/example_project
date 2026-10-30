@@ -1,0 +1,7 @@
+langchain==1.0.3
+langchain_community==0.4.1
+langchain_core==1.0.3
+langgraph==1.0.2
+# Keep the helper package compatible with LangGraph 1.0.2.
+langgraph-prebuilt==1.0.2
+Requests==2.32.5
